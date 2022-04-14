@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_color_back"
+    tools:context=".feedbackform">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/thnxforfilling"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:fontFamily="@font/alegreya_sc"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/thank_you_for_your_feedback"
+            android:textColor="#ECC961"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="374dp"
+            android:layout_height="117dp"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/writefeedback"
+            android:layout_width="375dp"
+            android:layout_height="267dp"
+            android:ems="10"
+            android:hint="@string/write_feedback"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/Sendfeedbackb"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:onClick="sendfeedback"
+            android:padding="12dp"
+            android:text="@string/send_feedback"
+            android:textColor="#FDFDFD" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
