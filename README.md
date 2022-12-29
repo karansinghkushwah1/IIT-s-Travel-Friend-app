@@ -33,3 +33,16 @@ samples, guidance on mobile development, and a full API reference.
 10. The widgets folder has individual widgets which can be used on multiple pages or are large in size and would reduce the readabilty and make a single page's code too long. 
 11. Before making a pull request, format the code with `Ctrl+Alt+L`. Add a comma after all the closing brackets as it will help the IDE in aligning the brackets and formatting the code. 
 
+<hr>
+## Screenshots - 
+<p>
+<img src="https://github.com/karansinghkushwah1/IIT-s-Travel-Friend-app/blob/master/screenshot/Screenshot_1672304333.png" hspace="10" width=25% height=25% style="display: inline-block;">
+
+<img src="https://github.com/karansinghkushwah1/IIT-s-Travel-Friend-app/blob/master/screenshot/Screenshot_1672304342.png" hspace="10" width=25% height=25% style="display: inline-block;">
+
+<img src="https://github.com/karansinghkushwah1/IIT-s-Travel-Friend-app/blob/master/screenshot/Screenshot_1672304376.png" hspace="10" width=25% height=25% style="display: inline-block;">
+
+<img src="https://github.com/karansinghkushwah1/IIT-s-Travel-Friend-app/blob/master/screenshot/Screenshot_1672304383.png" hspace="10" width=25% height=25% style="display: inline-block;">
+
+<img src="https://github.com/karansinghkushwah1/IIT-s-Travel-Friend-app/blob/master/screenshot/Screenshot_1672304389.png" hspace="10" width=25% height=25% style="display: inline-block;">
+</p>
